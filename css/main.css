@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,7 +22,7 @@ body {
 }
 
 .img-flex {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -32,7 +32,11 @@ figure {
 }
 
 figcaption {
-  postion: absolute;
+  position: absolute;
   bottom: .5rem;
   left: .5rem;
+  background-color: rgba(0,0,0,.5);
+  max-width: 15em;
+  border-radius: .5rem;
+  color: white;
 }
