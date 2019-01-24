@@ -20,3 +20,19 @@ html {
 body {
   margin: 0;
 }
+
+.img-flex {
+  display: inline-block;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+}
+
+figcaption {
+  postion: absolute;
+  bottom: .5rem;
+  left: .5rem;
+}
